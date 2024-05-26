@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS;
+/*const ownervb = process.env.OWNERS;
 if (!ownervb) {
     throw new Error("OWNERS env is not set");
 }
@@ -22,7 +22,12 @@ for (let i = 0; i < ownerlist.length; i += 2) {
     ];
     global.owner.push(owner);
 }
-
+*/
+global.owner = [
+  ['447441442535', 'Queen Hentai', true],
+  ['447441442535', 'Queen Hentai', true], 
+  [''] 
+] //Number of owners
 //global.pairingNumber = "447441442535" //put your bot number here
 
 global.mods = ['447441442535', '447441442535']
